@@ -1,1 +1,1 @@
-ffmpeg -re -i "http://electrotv.us:25461/live/momo4545/momo4545/1123899.m3u8" -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0" -c:v copy -c:a aac -b:v -maxrate 2000k -bufsize 1000k -f flv "rtmp://stream.ssh101.com/live/lazioiran"
+ffmpeg -re -i "http://electrotv.us:25461/live/momo4545/momo4545/1123899.m3u8" -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0" -c:v copy -c:a aac -b 4000k -minrate 4000k -maxrate 4000k -bufsize 1835k -f flv "rtmp://stream.ssh101.com/live/lazioiran"
