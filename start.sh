@@ -1,0 +1,1 @@
+ffmpeg -re -i "http://electrotv.us:25461/live/momo4545/momo4545/1123899.m3u8" -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0" -c:v copy -c:a aac -f flv "rtmp://stream.ssh101.com/live/lazioiran"
