@@ -1,1 +1,1 @@
-ffmpeg -i "http://electrotv.us:25461/live/momo4545/momo4545/1123899.m3u8" -c:v copy -c:a copy -f flv "rtmp://push.livenegah.com:1935/livenegah/li_TXVNc1hxQzNhckdxL3JUdVRSbjRxZz09_xvpnffntgwhccave?s=brugyputulfppeaj"
+ffmpeg -i "http://electrotv.us:25461/live/momo4545/momo4545/1123899.m3u8" -c:v copy -c:a copy -f flv "rtmp://5.106.13.131/shadstream/619fbf4093900c4ad4737b1bwmggjbdayzymwpmwfqxxycamhshcgmji?pt=fmffbyyofznbtzvugpuvnjqhsxnlhvbm"
