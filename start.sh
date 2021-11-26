@@ -1,1 +1,1 @@
-ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/match.tv.ru.m3u8" -c:v copy -c:a copy -f flv "rtmp://rtmp.lahzecdn.com:1935/pro/vnmhmblbvn"
+ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/match.tv.ru.m3u8" -c:v copy -c:a copy -f flv "rtmp://rtmp.cdn.asset.aparat.com:443/event/e4bc3605a20cfdc7a1e206bb2084fac3b?s=aaf9bf799b6d45a4"
