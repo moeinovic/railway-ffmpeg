@@ -1,6 +1,6 @@
 FROM debian:latest
 RUN apt update && apt upgrade -y
-RUN apt install curl -y
+RUN apt install ffmpeg -y
 COPY . /app
 WORKDIR /app
-CMD curl rtmp.lahzecdn.com
+CMD bash start.sh
