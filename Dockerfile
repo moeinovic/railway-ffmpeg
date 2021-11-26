@@ -1,7 +1,6 @@
 FROM debian:latest
 RUN apt update && apt upgrade -y
-RUN apt install curl -y
-RUN apt install iputils-ping -y
+RUN apt install ffmpeg -y
 COPY . /app
 WORKDIR /app
-CMD curl ipinfo.io
+CMD bash start.sh
