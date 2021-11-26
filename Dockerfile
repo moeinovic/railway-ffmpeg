@@ -1,6 +1,7 @@
 FROM debian:latest
 RUN apt update && apt upgrade -y
-RUN apt install ffmpeg -y
+RUN apt install curl -y
+RUN apt install iputils-ping
 COPY . /app
 WORKDIR /app
-CMD bash start.sh
+CMD ping -c 15 rtmp.cdn.asset.aparat.com
