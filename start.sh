@@ -1,1 +1,1 @@
-ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/eleven.sports.1.pl.m3u8" -vcodec copy -acodec aac -f flv "rtmp://push.ir-thr-mn-cluster.arvanlive.com:1935/D3Japgd9Y4/RG6a3wa9kK"
+ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/bt.sport.1.uk.m3u8" -vcodec copy -acodec aac -f flv "rtmp://push.ir-thr-mn-cluster.arvanlive.com:1935/lP80pm5WVD/X8ZqQV7G3n"
