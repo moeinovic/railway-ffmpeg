@@ -1,1 +1,1 @@
-ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/bt.sport.1.uk.m3u8" -vcodec copy -acodec aac -b:v 3M -f flv "rtmp://stream.dlive.tv/live/2JmKm1hEgWLU1fzLEaZcQm09zlVqZ732_moeinovic1"
+ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/bt.sport.1.uk.m3u8" -vcodec copy -acodec aac -b 2M  -minrate 2M -maxrate 2M  -bufsize  2M -f flv "rtmp://stream.dlive.tv/live/2JmKm1hEgWLU1fzLEaZcQm09zlVqZ732_moeinovic1"
