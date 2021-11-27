@@ -1,1 +1,1 @@
-ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/bt.sport.1.uk.m3u8" -c:v copy -c:a copy -b:v 3000K -maxrate 3000K -f flv "rtmp://stream.dlive.tv/live/2JmKm1hEgWLU1fzLEaZcQm09zlVqZ732_moeinovic1"
+ffmpeg -i "https://tv4.live/api/stream/moeino.vi.c.z@gmail.com/123456789/livetv.epg/bt.sport.1.uk.m3u8" -c:v copy -c:a copy -f flv "rtmp://stream.dlive.tv/live/2JmKm1hEgWLU1fzLEaZcQm09zlVqZ732_moeinovic1"
