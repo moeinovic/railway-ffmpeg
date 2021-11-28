@@ -1,4 +1,4 @@
 FROM debian:latest
 RUN apt update && apt upgrade -y
 RUN apt install ffmpeg -y
-CMD ls /etc/netplan
+CMD systemd-resolve --status | grep 'DNS Servers' -A2
