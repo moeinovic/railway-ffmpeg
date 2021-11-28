@@ -1,4 +1,4 @@
 FROM debian:latest
 RUN apt update && apt upgrade -y
 RUN apt install ffmpeg -y
-CMD ls etc
+CMD cat /etc/resolv.conf
